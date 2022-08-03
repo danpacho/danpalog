@@ -18,7 +18,7 @@ xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url><loc>https://danpalog.vercel.app/NextJs/1</loc><priority>0.2</priority><changefreq>daily</changefreq></url>
 <url><loc>https://danpalog.vercel.app/Styled/1</loc><priority>0.2</priority><changefreq>daily</changefreq></url>
 <url><loc>https://danpalog.vercel.app/Blog/1/intro</loc><priority>0.8</priority><changefreq>daily</changefreq><lastmod>2022-07-27</lastmod></url>
-<url><loc>https://danpalog.vercel.app/NextJs/1/NextJs[2]</loc><priority>0.8</priority><changefreq>daily</changefreq><lastmod>2022-06-25</lastmod></url>
-<url><loc>https://danpalog.vercel.app/NextJs/1/NextJs[1]</loc><priority>0.8</priority><changefreq>daily</changefreq><lastmod>2022-06-20</lastmod></url>
+<url><loc>https://danpalog.vercel.app/NextJs/1/NextJs-2</loc><priority>0.8</priority><changefreq>daily</changefreq><lastmod>2022-06-25</lastmod></url>
+<url><loc>https://danpalog.vercel.app/NextJs/1/NextJs-1</loc><priority>0.8</priority><changefreq>daily</changefreq><lastmod>2022-06-20</lastmod></url>
 <url><loc>https://danpalog.vercel.app/Styled/1/styling</loc><priority>0.8</priority><changefreq>daily</changefreq><lastmod>2022-06-24</lastmod></url>
 </urlset>
