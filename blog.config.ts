@@ -60,6 +60,7 @@ const blogInfo: BlogInfoType = {
         authorInfo.name
     }© All rights reserved ${new Date().getFullYear()}.`,
     language: "ko",
+    googleAnalyticsID: "G-EP0KYQ9YS4",
 }
 
 const blogContentsDirectoryName = "blog" as const
