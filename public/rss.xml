@@ -1,0 +1,51 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Danpa Log</title>
+    <link>https://danpalog.vercel.app</link>
+    <description>기록하는 습관을 만들어 봅시다</description>
+    <language>ko</language>
+    <lastBuildDate>Wed, 27 Jul 2022 00:00:00 GMT</lastBuildDate>
+    <webMaster>danpa725@cau.ac.kr (danpacho)</webMaster>
+    <managingEditor>danpa725@cau.ac.kr (danpacho)</managingEditor>
+    <atom:link href="https://danpalog.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <guid>https://danpalog.vercel.app/Blog/1/intro</guid>
+      <title>Next Your Home</title>
+      <link>https://danpalog.vercel.app/Blog/1/intro</link>
+      <description>Next your home is built with Typescript and beautiful</description>
+      <pubDate>Wed, 27 Jul 2022 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (danpacho)</author>
+      <category>blog</category><category>nextJs</category>
+    </item>
+    <item>
+      <guid>https://danpalog.vercel.app/NextJs/1/NextJs[2]</guid>
+      <title>NextJs series2 🎉</title>
+      <link>https://danpalog.vercel.app/NextJs/1/NextJs[2]</link>
+      <description>you can series the post you want to!</description>
+      <pubDate>Sat, 25 Jun 2022 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (danpacho)</author>
+      <category>NextJs</category><category>framework</category><category>series</category><category>post</category>
+    </item>
+    <item>
+      <guid>https://danpalog.vercel.app/NextJs/1/NextJs[1]</guid>
+      <title>NextJs series1 🎉</title>
+      <link>https://danpalog.vercel.app/NextJs/1/NextJs[1]</link>
+      <description>Next your home is built with NextJs! It's fast 🫡</description>
+      <pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (danpacho)</author>
+      <category>NextJs</category><category>framework</category><category>series</category><category>post</category>
+    </item>
+    <item>
+      <guid>https://danpalog.vercel.app/Styled/1/styling</guid>
+      <title>styled-components</title>
+      <link>https://danpalog.vercel.app/Styled/1/styling</link>
+      <description>Next your home is styling with styled-components</description>
+      <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
+      <author>danpa725@cau.ac.kr (danpacho)</author>
+      <category>styled-components</category><category>styling</category><category>css-in-js</category>
+    </item>
+    
+  </channel>
+</rss>
