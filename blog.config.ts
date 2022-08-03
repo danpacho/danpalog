@@ -27,21 +27,21 @@ export interface AuthorInfoType {
     faviconUrl: string
 }
 const authorInfo: AuthorInfoType = {
-    name: "your name",
-    currentState: "your current state",
-    currentGoal: "your current goal",
+    name: "danpacho",
+    currentState: "keep studying",
+    currentGoal: "make people move",
     contacts: {
-        email: getAuthorContactHref("email", "your@email"),
-        github: getAuthorContactHref("github", "githubID"),
-        youtube: getAuthorContactHref("youtube", "youtubeID"),
-        facebook: getAuthorContactHref("facebook", "facebookID"),
-        instagram: getAuthorContactHref("instagram", "instagramID"),
-        linkedin: getAuthorContactHref("linkedin", "linkedinID"),
-        twitter: getAuthorContactHref("twitter", "twitterID"),
+        email: getAuthorContactHref("email", "danpa725@cau.ac.kr"),
+        github: getAuthorContactHref("github", "danpacho"),
+        youtube: "",
+        facebook: "",
+        instagram: "",
+        linkedin: "",
+        twitter: "",
     },
+    bannerImageUrl: "/banner.webp",
     logoImageUrl: "/logo.webp",
-    bannerImageUrl: "/banner.png",
-    faviconUrl: "/favicon.png",
+    faviconUrl: "/favicon.webp",
 }
 
 interface BlogInfoType {
@@ -53,9 +53,9 @@ interface BlogInfoType {
     googleAnalyticsID?: string
 }
 const blogInfo: BlogInfoType = {
-    url: "your DEPLOY URL",
-    siteName: "your site name",
-    subtitle: "your site subtitle",
+    url: "https://danpalog.vercel.app",
+    siteName: "Danpa Log",
+    subtitle: "기록하는 습관을 만들어 봅시다",
     copyright: `${
         authorInfo.name
     }© All rights reserved ${new Date().getFullYear()}.`,
@@ -64,12 +64,12 @@ const blogInfo: BlogInfoType = {
 
 const blogContentsDirectoryName = "blog" as const
 interface ConfigType extends BlogInfoType {
-    useTXT: boolean // description file format to .txt, not .json
-    useKatex: boolean // katex option
-    useMemo: boolean // improves dev speed, but require manual refresh except posts
-    useMobileTOC: boolean // table of content on mobile
-    userPallete: UserPalleteType // personal pallete
-    blogContentsDirectoryName: `${typeof blogContentsDirectoryName}` // blog contents directory name
+    useTXT: boolean
+    useKatex: boolean
+    useMemo: boolean
+    useMobileTOC: boolean
+    userPallete: UserPalleteType
+    blogContentsDirectoryName: `${typeof blogContentsDirectoryName}`
     author: AuthorInfoType
     postPerCategoryPage: number
     numberOfLatestPost: number
